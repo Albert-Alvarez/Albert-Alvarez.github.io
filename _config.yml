@@ -1,4 +1,3 @@
 theme: jekyll-theme-cayman
-webrick:
-  headers:
-    My-Header: Albert Álvarez's GitHub page
+name: "Githaa!"
+description: "Albert Álvarez's GitHub page"
