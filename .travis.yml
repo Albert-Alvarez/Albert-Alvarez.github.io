@@ -6,7 +6,7 @@ deploy:
   local-dir: _site
   target-branch: master
   on:
-    branch: master
+    branch: web-development
 language: ruby
 rvm:
 - 2.2
