@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://albertalvarezcarulla.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://albertalvarezcarulla.com/" rel="alternate" type="text/html" /><updated>2018-09-22T20:55:03+00:00</updated><id>https://albertalvarezcarulla.com/</id><title type="html">Albert Álvarez Carulla</title><subtitle>Hello, I'm Albert Álvarez-Carulla and welcome to my personal website! Here you will find all my work: publications, projects, portfolio, resume, profile and so on. All this together with my blog where you will find my most recent professional activity and my thoughs.</subtitle><entry><title type="html">Hello, World!</title><link href="https://albertalvarezcarulla.com/blog/my-site/news/2018/09/21/hello-world.html" rel="alternate" type="text/html" title="Hello, World!" /><published>2018-09-21T07:00:00+00:00</published><updated>2018-09-21T07:00:00+00:00</updated><id>https://albertalvarezcarulla.com/blog/my-site/news/2018/09/21/hello-world</id><content type="html" xml:base="https://albertalvarezcarulla.com/blog/my-site/news/2018/09/21/hello-world.html">&lt;p&gt;It’s very usual, when you start to learn a programming language, to run a &lt;a href=&quot;https://en.wikipedia.org/wiki/%22Hello,_World!%22_program&quot; target=&quot;_blank&quot;&gt;“Hello, World!”&lt;/a&gt; program as example in order to say “Hey! I’ve done something with this!”. Its running is a very special moment where the programmer sees the basic syntax for the first time and he feels some kind of &lt;strong&gt;excitement&lt;/strong&gt; that motivates him during the early stages of his learning path.
+This is how I feel right now while I’m writing my first post: a feel excited while I’m &lt;strong&gt;starting to learn&lt;/strong&gt; how a blog must be done and managed.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-i-am&quot;&gt;Who I am&lt;/h2&gt;
+
+&lt;p&gt;This is my first post, so, first of all, let me introduce myself. My name Albert Álvarez-Carulla, but &lt;strong&gt;call me Al&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;floated-left&quot;&gt;
+  &lt;img src=&quot;/assets/img/me-at-new-york.jpg&quot; alt=&quot;Picture of me during a trip to Japan.&quot; style=&quot;max-width:450px;&quot; /&gt;
+  &lt;figcaption&gt;
+    Yes. I'm the bearded guy from this pic taken during a trip to New York. I know that it's a very important matter to use high-quality well-taken pics for a website, but this is one of the few pictures where I appear (I love photography and usually I stay behind the lens).
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I am an &lt;strong&gt;electronics engineer&lt;/strong&gt; and I’m currently working as a researcher and lecturer in &lt;a href=&quot;https://www.ub.edu/&quot; target=&quot;_blank&quot;&gt;University of Barcelona&lt;/a&gt; while I’m doing my doctorate (PhD) research. In turn, as you’ll see in this site, I’m also an passionate of graphic design, especially, &lt;strong&gt;web design and its development&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-ive-created-this-site&quot;&gt;Why I’ve created this site&lt;/h2&gt;
+
+&lt;p&gt;The main reason is that nowadays is almost indispensable to have an &lt;strong&gt;online presence&lt;/strong&gt;, either through social networks (&lt;a href=&quot;https://www.linkedin.com/in/aalvarca/&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/_albert_dev/&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/albert_dev&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;, etc.) or a website. It’s important to show to the world what you know to do, your skills, your competences, your experience, your achievements, your publications, your projects, your passions, … In essence, some kind of &lt;strong&gt;online resume&lt;/strong&gt; with a &lt;strong&gt;portfolio&lt;/strong&gt;. And, in this case, &lt;strong&gt;I also added a blog&lt;/strong&gt; with my recent activity, reflections, technical entries, tutorials, and so on. The idea behind this blog is to make this site to look &lt;strong&gt;alive and updated&lt;/strong&gt; as well as to set some kind of link between &lt;strong&gt;you and me&lt;/strong&gt;, in this case, based in our &lt;strong&gt;common passion for the new technologies&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-web-looks-like-the-death-star-during-the-return-of-the-jedi&quot;&gt;The web looks like the Death Star during “The Return of the Jedi”&lt;/h2&gt;
+
+&lt;p&gt;Fully agree. The site, as you have been able to see, is half-done. I have to finish the other sections of the site, like the landing page or portfolio. &lt;strong&gt;I want to design and develop this site meticulously&lt;/strong&gt; to the last detail. This supposes a huge amount of time and &lt;strong&gt;I can’t wait&lt;/strong&gt; so long to share my posts with you. So, I’ve published the blog in order to make it accessible and, as soon as I get finished the other sections, I will publish them.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/img/death-star-half-done.jpg&quot; alt=&quot;A metaphor for the half-done website.&quot; style=&quot;max-width:100%&quot; /&gt;
+  &lt;figcaption&gt;
+    As a good engineer, you can expect from me thousand of references to Star Wars. In this case, the site is done with Jekyll, so, don't expect any strange &quot;hole&quot; like the one in the Death Star...
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;end-of-the-hello-world&quot;&gt;End of the “Hello, World”&lt;/h2&gt;
+
+&lt;p&gt;I don’t expect you to know me in just one post. That’s impossible. I expect that to be achieved through the completion of this site and the posts published in this blog. In the end, my intention, simply, was to say “hello” and feel the excitement of run something new that I’ve started to learn: a “Hello, World!”.&lt;/p&gt;</content><author><name></name></author><category term="new" /><category term="site" /><summary type="html">It’s very usual, when you start to learn a programming language, to run a “Hello, World!” program as example in order to say “Hey! I’ve done something with this!”. Its running is a very special moment where the programmer sees the basic syntax for the first time and he feels some kind of excitement that motivates him during the early stages of his learning path. This is how I feel right now while I’m writing my first post: a feel excited while I’m starting to learn how a blog must be done and managed.</summary></entry></feed>
