@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<main>
+
+    <header>
+        <div class="category">Categories</div>
+        <ul class="categories">
+        {% assign sorted_cats = site.categories | sort %}
+        {% for category in sorted_cats %}
+        {% assign cat_slug = category[0] %}
+        <li><a href="{{ '/blog/' | append: cat_slug | relative_url }}">{{ site.data.categories[cat_slug] }}</a></li>
+        {% endfor %}
+        </ul>
+    </header>
+    
+    {%- include post-list.html -%}
+    
+</main>

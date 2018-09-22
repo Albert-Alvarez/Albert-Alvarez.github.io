@@ -1,0 +1,43 @@
+<section class="posts">
+{% for post in paginator.posts %}
+
+    <div class="post">
+        <div class="featured-img">
+        <div class="child" style="background-image: url('{{ post.featured_image_url | relative_url }}');">
+            <a href="{{ post.url | relative_url }}"></a>
+        </div>
+        </div>
+        <div class="box-info">
+        <div class="title">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <div class="row">
+            {% assign category = post.categories[0] %}
+            <div class="left">In <a href="{{ '/blog/' | append: category | relative_url }}">{{ site.data.categories[category] }}</a></div>
+            <div class="right"><time>{{ post.date | date: "%B %-d, %Y" }}</time></div>
+            </div>
+        </div>
+        <div class="author">
+            <img src="{{ '/assets/img/profile-image.jpg' | relative_url }}" alt="">
+            <div>
+            by <a href="{{ '/about-me' | relative_url }}">Albert Álvarez-Carulla</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    {% endfor %}
+    <div class="post zero-height"></div>
+    <div class="post zero-height"></div>
+    <div class="post zero-height"></div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+<section class="pagination">
+    {% if paginator.previous_page %}
+    <a class="newer btn" href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a class="older btn" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+    {% endif %}
+</section>
+{% endif %}

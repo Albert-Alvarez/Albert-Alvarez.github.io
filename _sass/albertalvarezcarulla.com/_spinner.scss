@@ -1,0 +1,60 @@
+.spinner-background {
+  position: absolute;
+  display: inline-block;
+  padding-top: $navbar-height;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: $body-background-color;
+  z-index: 998;
+  &.loaded {
+    display: none;
+  }
+
+  .spinner {
+    display: inline-block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    padding: auto;
+    top: 50%;
+    left: 50%;
+    translate: (-50%, -50%);
+
+    div {
+      display: inline-block;
+      position: absolute;
+      left: 6px;
+      width: 13px;
+      background: $theme-main-color;
+      opacity: 0.2;
+      animation: spinner-animation 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    }
+    div:nth-child(1) {
+      left: 6px;
+      animation-delay: -0.24s;
+    }
+    div:nth-child(2) {
+      left: 26px;
+      animation-delay: -0.12s;
+    }
+    div:nth-child(3) {
+      left: 45px;
+      animation-delay: 0;
+    }
+    @keyframes spinner-animation {
+      0% {
+        top: 6px;
+        height: 51px;
+        opacity: 1;
+      }
+      50%,
+      100% {
+        top: 19px;
+        height: 26px;
+        opacity: 0.2;
+      }
+    }
+  }
+}

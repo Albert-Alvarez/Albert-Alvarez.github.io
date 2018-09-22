@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<main>
+
+    <header>
+        {% assign category = page.pagination.categories[0] %}
+        <div class="category" style="margin: 20px 0;">Category: <a href="{{ '/blog/' | append: category | relative_url }}">{{ site.data.categories[category] }}</a></div>
+    </header>
+    
+    {%- include post-list.html -%}
+    
+</main>

@@ -1,0 +1,141 @@
+$meta-font-family: $normal-font-family;
+$meta-font-color: #000;
+$meta-font-size: 0.85rem;
+$meta-font-weight: 300;
+
+html {
+  overflow-x: hidden;
+  background: $navbar-color;
+  @include respond-above(md) {
+    font-size: 20px;
+  }
+  font-size: 18px;
+}
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: $normal-font-family;
+  color: $normal-font-color;
+  background: white;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: $header-font-family;
+  font-weight: bold;
+  color: $header-font-color;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+a {
+  color: $theme-main-color;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 250ms ease;
+  &:hover {
+    color: $navbar-color;
+  }
+  &.btn {
+    margin: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid $theme-main-color;
+    border-radius: 5px;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      background-color: $theme-main-color;
+    }
+  }
+}
+
+body>div.content {
+  padding-top: $navbar-height;
+  width: 100%;;
+}
+
+hr {
+  margin: 15px auto;
+  border: 0;
+  height: 1px;
+  max-width: 600px;
+  background-image: linear-gradient(to right, rgba($white-font-color, 0), rgba($white-font-color, 0.75), rgba($white-font-color, 0));
+}
+
+
+
+
+
+
+
+main {
+  padding: 15px;
+}
+
+$header-logo-font-family: "Montserrat", sans-serif;
+$secondary-color: #4848ff;
+$body-background-color: rgb(226, 226, 226);
+$hover-attenuation: 0.45;
+$hover-duration: 150ms;
+
+.nav-bar {
+  
+  background-color: $theme-main-color;
+  color: white;
+  transition: background-color 500ms ease;
+  z-index: 1000;
+  .hamburguer-menu {
+    grid-area: hamburguer-menu;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $header-logo-font-family;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    .bold {
+      font-weight: 700;
+    }
+  }
+  .search-bar {
+    grid-area: search;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  &.solid {
+    background-color: $theme-main-color;
+  }
+}
+
+.search-results {
+  padding: 40px;
+}
+
+

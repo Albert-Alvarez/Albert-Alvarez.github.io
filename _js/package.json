@@ -1,0 +1,17 @@
+{
+  "name": "albertalvarezcarulla.com",
+  "version": "1.0.0",
+  "description": "Javascript project for albertalvarezcarulla.com",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "babel src --watch --out-file ../js/main.js"
+  },
+  "author": "Albert Álvarez Carulla",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3"
+  }
+}
