@@ -89,6 +89,7 @@
           align-content: stretch;
           margin: -$grid-gutter;
           img {
+            max-width:450px;
             margin: $grid-gutter;
           }
           figcaption {
@@ -98,6 +99,7 @@
             }
         }
         img {
+          border-radius: 5px;
           display: block;
           margin: auto;
           width: 100%;

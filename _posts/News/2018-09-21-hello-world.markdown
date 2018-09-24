@@ -27,7 +27,7 @@ This is how I feel right now while I'm writing my first post: a feel excited whi
 This is my first post, so, first of all, let me introduce myself. My name Albert Álvarez-Carulla, but **call me Al**.
 
 <figure class="floated-left">
-  <img src="{{ '/assets/img/me-at-new-york.jpg' | relative_url }}" alt="Picture of me during a trip to Japan." style="max-width:450px;">
+  <img src="{{ '/assets/img/me-at-new-york.jpg' | relative_url }}" alt="Picture of me during a trip to Japan.">
   <figcaption>
     Yes. I'm the bearded guy from this pic taken during a trip to New York. I know that it's a very important matter to use high-quality well-taken pics for a website, but this is one of the few pictures where I appear (I love photography and usually I stay behind the lens).
   </figcaption>

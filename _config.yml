@@ -18,6 +18,7 @@ email: albert.alvarez.carulla@gmail.com
 description: "Hello, I'm Albert Álvarez-Carulla and welcome to my personal website! Here you will find all my work: publications, projects, portfolio, resume, profile and so on. All this together with my blog where you will find my most recent professional activity and my thoughs."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://albertalvarezcarulla.com" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-115122037-1
 
 # Build settings
 markdown: kramdown
