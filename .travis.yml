@@ -10,4 +10,4 @@ deploy:
 language: ruby
 rvm:
 - 2.3
-script: "JEKYLL_ENV=production bundle exec jekyll serve"
+script: "JEKYLL_ENV=production bundle exec jekyll build"
