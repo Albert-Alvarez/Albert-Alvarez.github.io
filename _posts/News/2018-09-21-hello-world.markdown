@@ -20,7 +20,7 @@ hashtags:
   - electronicsengineer
 ---
 It's very usual, when you start to learn a programming language, to run a ["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program){:target="_blank"} program as example in order to say "Hey! I've done something with this!". Its running is a very special moment where the programmer sees the basic syntax for the first time and he feels some kind of **excitement** that motivates him during the early stages of his learning path.
-This is how I feel right now while I'm writing my first post: a feel excited while I'm **starting to learn** how a blog must be done and managed.
+This is how I feel right now while I'm writing my first post: I'm feeling excited while I'm **starting to learn** how a blog must be done and managed.
 
 ## Who I am
 

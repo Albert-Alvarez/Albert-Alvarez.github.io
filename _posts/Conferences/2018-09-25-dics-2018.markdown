@@ -1,0 +1,45 @@
+---
+layout: post
+nav: Blog
+title:  "Let's meet in Lyon at DCIS '18"
+description: "I'm going to attend the XXXIII Conference on Design of Circuits and Integrated Systems (DCIS) on November 14th-16th at Lyon (FR). There I'm going to present the work shown in our proceeding with the title 'Energy-Aware Adaptative Supercapacitor Storage System for Multi-Harvesting Solutions'."
+featured_image_url: '/assets/img/dcis-2018-lyon.jpg'
+date:   2018-09-25 17:00:00 +0200
+categories:
+  - conferences
+  - publications
+  - news
+tags:
+  - conferences
+  - proceeding
+  - dcis
+  - energy harvesting
+  - electronics
+hashtags:
+  - dcis2018
+  - energyharvesting
+  - electronics
+---
+
+We submitted two manuscripts for the [XXXIII Conference on Design of Circuits and Integrated Systems (DCIS)](http://dcis.org/){:target="_blank"} and both have been selected to be presented on **November 14th-16th** at **Lyon**. The two manuscripts are the fruit of our work in the frame of the **MINAUTO project** (you will find info about this project as soon as I finish the portfolio section).
+
+<figure>
+  <img src="{{ '/assets/img/eco-friend-solutions.jpg' | relative_url }}" alt="Green energy.">
+  <figcaption>
+    You'll see that great part of our efforts are focused on biomedical and energy harvesting applications where the use of green/eco-friendly energy solutions is one of our flagships that we are proud to have. Take care of our planet!
+  </figcaption>
+</figure>
+
+## Front-end circuit for biosampling applications
+
+In our first manuscript, lead by [Yaiza Montes-Cebrián](https://www.linkedin.com/in/ymontes/){:target="_blank"}, we show the implementation of a circuit for biosampling applications. In this work, which title is **"A Fuel Cell-based Adaptable Self-Powered Event Detection Platform Enhanced for Biosampling Applications"**, we present a circuit for **self-powered** devices where a **fuel cell** is used for both power the circuit and perform a **biological measurement** related to the fuel used.
+
+## Storing energy while harvesting it
+
+The second manuscript, in this case, lead by me, we present an **ideal architecture for energy harvesting solutions**. Its title is **"Energy-Aware Adaptative Supercapacitor Storage System for Multi-Harvesting Solutions"**. From this ideal architecture (the goal of the MINAUTO project), we show the implementation of one of the modules that consist of a **switched Super-Capacitor-based Energy Storage System (SCESS)**. This SCESS is designed in such a way that it **maximizes** the **autonomy** of the system and its **energy storage capacity** while **decreasing** the time needed for its operation (**start-up time**). All this module is **self-powered** being a potential candidate for energy harvesting solutions such as the Internet of Things (IoT), Thrillions Sensors (TSensors) or Wireless Sensor Networks (WSNs).
+
+## When we present
+
+You can find the program of the conference [here](http://inl.cnrs.fr/dcis2018/dcis2018-program/){:target="_blank"}. You'll find me on the **opening day (Wednesday 14th, November) at 17:15 in Room 1 during the technical session	S3A "Energy:	conversion, management and storage"**. My colleague Yaiza Montes'll present on **Thursday 15ht, November**. You'll find her at 14:30 during **technical session S5A "Cyberphysical autonomous systems" at Room 1**.
+
+I expect to see you there!
