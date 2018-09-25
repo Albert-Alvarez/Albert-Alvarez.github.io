@@ -40,6 +40,6 @@ The second manuscript, in this case, lead by me, we present an **ideal architect
 
 ## When we present
 
-You can find the program of the conference [here](http://inl.cnrs.fr/dcis2018/dcis2018-program/){:target="_blank"}. You'll find me on the **opening day (Wednesday 14th, November) at 17:15 in Room 1 during the technical session	S3A "Energy:	conversion, management and storage"**. My colleague Yaiza Montes'll present on **Thursday 15ht, November**. You'll find her at 14:30 during **technical session S5A "Cyberphysical autonomous systems" at Room 1**.
+You can find the program of the conference [here](http://inl.cnrs.fr/dcis2018/dcis2018-program/){:target="_blank"}. You'll find me on the **opening day (Wednesday 14th, November) at 17:15 in Room 1 during the technical session	S3A "Energy:	conversion, management and storage"**. My colleague Yaiza Montes'll present on **Thursday 15th, November**. You'll find her at 14:30 during **technical session S5A "Cyberphysical autonomous systems" in Room 1**.
 
 I expect to see you there!
