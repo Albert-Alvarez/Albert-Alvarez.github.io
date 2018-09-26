@@ -1,5 +1,60 @@
 .content.blog,
 .content.category {
+  header {
+    h1 {
+      margin: 0;
+      &::after {
+        content: "—";
+        display: block;
+        color: $theme-main-color;
+        font-weight: bolder;
+        font-size: 3.25rem;
+        line-height: 1.625rem;
+      }
+    }
+    div.category {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-family: $header-font-family;
+      font-weight: bold;
+      font-size: 1rem;
+      svg {
+        display:inline-block;
+        vertical-align: middle;
+        height: 1rem;
+        line-height: 1rem;
+        width: auto;
+        margin-right: 10px;
+      }
+    }
+    ul.categories {
+      list-style: none;
+      padding: 0;
+      margin-left: -5px;
+      margin-right: -5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+      li {
+        border: 1px $theme-main-color solid;
+        border-radius: 1rem;
+        padding: 2.5px 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display:inline-block;
+        transition: background-color 250ms ease;
+        &:hover {
+          a {
+            color: white;
+          }
+          background-color: $theme-main-color;
+          color: white;
+        }
+      }
+    }
+  }
   margin: 0 auto;
   max-width: 1140px;
   section.posts {

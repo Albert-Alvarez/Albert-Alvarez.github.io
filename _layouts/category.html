@@ -5,9 +5,29 @@ layout: default
 
     <header>
         {% assign category = page.pagination.categories[0] %}
-        <div class="category" style="margin: 20px 0;">Category: <a href="{{ '/blog/' | append: category | relative_url }}">{{ site.data.categories[category] }}</a></div>
+        <h1>Blog</h1>
+        <div class="category">
+            <a href="{{ '/blog' | relative_url }}">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                    x="0px" y="0px" viewBox="0 0 18.2 17.9" style="enable-background:new 0 0 18.2 17.9;"
+                    xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: #6761BB;
+                        }
+                    </style>
+                    <defs>
+                    </defs>
+                    <path class="st0" d="M9,17.9c-0.1,0-0.2,0-0.3-0.1L0.2,9.3C0.1,9.2,0,9.1,0,9c0-0.1,0.1-0.2,0.2-0.3l8.5-8.5C8.7,0,8.8,0,9,0
+                        c0.1,0,0.3,0,0.4,0.1l0.8,0.8c0.1,0.1,0.1,0.2,0.1,0.3s0,0.3-0.1,0.4L3.9,7.9h13.8c0.1,0,0.2,0,0.3,0.1c0.1,0.1,0.1,0.2,0.1,0.3v1.1
+                        c0,0.1,0,0.3-0.1,0.3C17.9,10,17.8,10,17.7,10H3.9l6.3,6.3c0.1,0.1,0.1,0.2,0.1,0.4c0,0.1,0,0.2-0.1,0.3l-0.8,0.8
+                        C9.2,17.9,9.1,17.9,9,17.9z" />
+                </svg>
+            </a>
+            {{ site.data.categories[category] }}
+        </div>
     </header>
-    
+
     {%- include post-list.html -%}
-    
+
 </main>

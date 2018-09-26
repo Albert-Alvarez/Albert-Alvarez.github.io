@@ -6,7 +6,6 @@ description: My personal site is finally online. It's not finished, but I'll pub
 featured_image_url: '/assets/img/hello-world-card.jpg'
 date:   2018-09-21 09:00:00 +0200
 categories: 
-  - my-site
   - news
 tags:
   - new
