@@ -46,6 +46,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+  publications:
+    output: true
+    permalink: /publications/:title:output_ext
 
 enabled:
   search: false
