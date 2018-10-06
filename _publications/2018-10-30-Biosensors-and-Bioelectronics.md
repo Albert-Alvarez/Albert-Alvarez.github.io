@@ -3,10 +3,10 @@ layout: publication
 nav: Publications
 categories:
     - Energy harvesting
-    - Structural Health Monitoring
-type: Conference proceeding
-publisher: IEEE
-conference: 2015 Conference on Design of Circuits and Integrated Systems (DCIS) 
+    - Biomedical application
+type: Article
+publisher: Elsevier
+journal: Biosensors and Bioelectronics
 title: Piezoelectric harvester-based self-powered adaptive circuit with wireless data transmission capability for structural health monitoring
 link: https://ieeexplore.ieee.org/document/7388594
 file: 
