@@ -1,0 +1,25 @@
+.content.page {
+    padding: 0;
+    main.imaged {
+        padding: 0;
+        header {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 500px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            padding: $navbar-height 15px 0 15px;
+            h1 {
+                max-width: 1140px;
+                width: 100%;
+                color: white;
+            }
+        }
+    }
+}

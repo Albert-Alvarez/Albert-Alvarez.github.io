@@ -36,4 +36,4 @@ This work covers from the different **energy harvesting sources available** to p
 
 ## Where you can find the book
 
-The book is available since August 22 and you can find it [here](https://www.crcpress.com/Sensors-for-Diagnostics-and-Monitoring/Yallup-Basirico/p/book/9780815370208){:target="_blank"} and, here below, you can find the information relative to it.
+The book is available since August 22 and you can find it [here](https://www.crcpress.com/Sensors-for-Diagnostics-and-Monitoring/Yallup-Basirico/p/book/9780815370208){:target="_blank"}.
