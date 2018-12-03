@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<main style="max-width:1140px;margin:0 auto;">
+  <h1>Publications</h1>
+  <ul class="publications">
+    {% assign sorted_publications = (site.publications | sort: 'date') | reverse %}
+    {% for publication in sorted_publications %}
+    <li class="publication">
+      <div class="date">
+        <div class="month">{{ publication.date | date: "%b" }}</div>
+        <div class="year">{{ publication.date | date: "%Y" }}</div>
+      </div>
+      <div class="data">
+        <div class="info">
+          <div class="metadata">
+            <h2>
+              {% case publication.type %}
+              {% when 'Conference proceeding' %}
+              {{ publication.conference }}
+              {% when 'Article' %}
+              {{ publication.journal }}
+              {% when 'Chapter' %}
+              {{ publication.publisher }} - {{ publication.book }}
+              {% endcase %}
+            </h2>
+            <h1>{{ publication.title }}</h1>
+            <ul class="authors">
+              {% for author in publication.authors %}
+              <li>
+                {% if author.website %}
+                <a class="name" href="{{ author.website }}" target="_blank">{{ author.name }}</a>
+                {% else %}
+                <span class="name">{{ author.name }}{% unless author.email %}{% if forloop.last == false %}{{ "," }}{%
+                  endif %}{% endunless %}</span>
+                {% endif %}
+                {% if author.email %}
+                <span> (<a class="mail" href="mailto:{{ author.email }}">{{ author.email }}</a>){% if forloop.last ==
+                  false
+                  %}{{ "," }}{% endif %}</span>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="file">
+            {% if publication.file %}
+            <a target="_blank" href="{{ publication.file | default: 'javascript:void(0);' }}"><i class="fa fa-file"
+                aria-hidden="true"></i></a>
+            {% else %}
+            &mdash;
+            {% endif %}
+          </div>
+          <div class="link">
+            {% if publication.link %}
+            <a target="_blank" href="{{ publication.link | default: 'javascript:void(0);' }}"><i class="fa fa-link"
+                aria-hidden="true"></i></a>
+            {% else %}
+            &mdash;
+            {% endif %}
+          </div>
+        </div>
+        <button class="collapsible"></button>
+        <div class="abstract">{{ publication.content }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
