@@ -157,3 +157,24 @@ body {
     }
   }
 }
+
+.content.publications {
+  li.publication {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    .data {
+      flex-grow: 1;
+      .info {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        .metadata {
+          flex-grow: 1;
+        }
+      }
+    }
+  }
+}
