@@ -1,14 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `The Albert Dev`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Albert Álvarez Carulla`,
+      summary: `Ingeniero electrónico, docente y papi molón 😎`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://thealbert.dev/`,
     social: {
-      twitter: `kylemathews`,
+      instagram: `thealbertdev`,
+      youtube: `thealbertdev`,
+      linkedin: `aalvarca`,
+      twitter: `thealbertdev`
     },
   },
   plugins: [
@@ -50,12 +53,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,

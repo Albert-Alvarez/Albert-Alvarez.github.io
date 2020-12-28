@@ -5,9 +5,11 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import TweetEmbed from 'react-tweet-embed'
+
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data.site.siteMetadata?.title || `Título`
   const { previous, next } = data
 
   return (
@@ -83,7 +85,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "D [de] MMMM, YYYY", locale: "es")
         description
       }
     }

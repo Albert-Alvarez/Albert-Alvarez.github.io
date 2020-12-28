@@ -12,11 +12,11 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Todas las entradas" />
         <Bio />
         <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
+          No se han encontrado entradas. Añade tus entradas en markdown en "content/blog"
+          (o en el directorio qye hayas especificado en el plugin "gatsby-source-filesystem" en
           gatsby-config.js).
         </p>
       </Layout>
@@ -25,7 +25,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Todas las entradas" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
@@ -79,7 +79,7 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "D [de] MMMM, YYYY", locale: "es")
           title
           description
         }
